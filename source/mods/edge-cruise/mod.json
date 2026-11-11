@@ -1,0 +1,34 @@
+{
+  "id": "edge-cruise",
+  "kind": "native",
+  "version": "0.2.0",
+  "display_name": "Edge Cruise Upgrade",
+  "gameplay": true,
+  "feature_dependencies": [
+    "shop-framework",
+    "hints-framework",
+    "vehicle-control-framework"
+  ],
+  "play_help": [
+    "Board a cruise-equipped car once, then buy its $350 Edge Cruise upgrade in Modded Shop (Ctrl+Shift+F2).",
+    "Drive beside a cleared dust edge, enable cleaning and vanilla cruise, then press J.",
+    "Manual steering, J, edge loss or a sharp curve releases assist and stops cruise."
+  ],
+  "requires_apis": [
+    {
+      "api": "shop-framework.shop",
+      "abi": 1,
+      "min_size": 56
+    },
+    {
+      "api": "hints-framework.hints",
+      "abi": 1,
+      "min_size": 24
+    },
+    {
+      "api": "vehicle-control-framework.controls",
+      "abi": 1,
+      "min_size": 72
+    }
+  ]
+}
