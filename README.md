@@ -1,5 +1,7 @@
 # Edge Cruise Upgrade
 
+<img src="media/icon.png" alt="Edge Cruise Upgrade icon" width="128" height="128">
+
 Purchased car upgrade follows cleared dust edges during cruise.
 
 ## Install
